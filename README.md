@@ -19,8 +19,8 @@ git add . && git commit -m "docstring updated" && git push origin main
 
 <img src="plots/or.png" alt="Girl in a jacket" width="500" height="600">
 
-# python updated
-``` python code
+# python code
+``` python 
 def main(data, modelname, plotname, eta, epochs):
     df = pd.DataFrame(data)
     print(df)
