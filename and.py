@@ -4,20 +4,12 @@ import pandas as pd
 
 
 def main(data, modelname, plotname, eta, epochs):
-
     df = pd.DataFrame(data)
-
     print(df)
-
     X,y = prepare_data(df)
-
-
-
     model = Perceptron(eta=eta, epochs=epochs)
     model.fit(X, y)
-
     _ = model.total_loss()
-
     save_model(model, filename=modelname)
     save_plot(df, plotname, model)
 
