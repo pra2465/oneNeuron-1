@@ -30,3 +30,17 @@ def main(data, modelname, plotname, eta, epochs):
     _ = model.total_loss()
     save_model(model, filename=modelname)
     save_plot(df, plotname, model)
+```
+
+## dataset  
+
+x1 | x2 | y
+-|-|-
+0|0|0
+0|1|0
+1|0|0
+1|1|1
+    
+###
+- point 1
+- point 2    
