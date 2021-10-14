@@ -8,3 +8,9 @@ oneNeuron@1|perceptron
 ```bash
 git add . && git commit -m "docstring updated" && git push origin main
 ```
+
+# git documents -
+```
+https://guides.github.com/introduction/git-handbook
+
+```
